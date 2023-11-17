@@ -53,7 +53,7 @@ function getCircleCircumference(radius) {
  *  -3, 3  => 0
  */
 function getAverage(value1, value2) {
-  return BigInt(value1 + value2) / 2;
+  return (value1 + value2) / 2;
 }
 /**
  * Returns a distance between two points by cartesian coordinates.
